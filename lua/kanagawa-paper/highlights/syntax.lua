@@ -26,7 +26,7 @@ function M.setup(colors, opts)
 		-- *Identifier	any variable name
 		Identifier = { fg = theme.syn.identifier },
 		--  Function	function name (also: methods for classes)
-		Function = vim.tbl_extend("force", { fg = theme.syn.fun, bold = false }, opts.functionStyle),
+		Function = vim.tbl_extend("force", { fg = theme.syn.fun }, opts.functionStyle),
 
 		-- *Statement	any statement
 		Statement = vim.tbl_extend("force", { fg = theme.syn.statement }, opts.statementStyle),
@@ -64,7 +64,7 @@ function M.setup(colors, opts)
 
 		-- *Underlined	text that stands out, HTML links
 		Underlined = { fg = theme.syn.special1, underline = true },
-		Bold = { bold = true },
+		Bold = { bold = false },
 		Italic = { italic = true },
 
 		-- *Ignore		left blank, hidden  |hl-Ignore|
