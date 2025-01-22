@@ -11,7 +11,7 @@ function M.setup(colors, opts)
 		Comment = vim.tbl_extend("force", { fg = theme.syn.comment }, opts.commentStyle),
 
 		-- *Constant	any constant
-		Constant = { fg = theme.syn.constant, bold = false },
+		Constant = { fg = theme.syn.constant },
 		--  String		a string constant: "this is a string"
 		String = { fg = theme.syn.string },
 		--  Character	a character constant: 'c', '\n'
@@ -24,7 +24,7 @@ function M.setup(colors, opts)
 		Float = { link = "Number" },
 
 		-- *Identifier	any variable name
-		Identifier = { fg = theme.syn.identifier },
+		Identifier = { fg = theme.syn.identifier, bold = false },
 		--  Function	function name (also: methods for classes)
 		Function = vim.tbl_extend("force", { fg = theme.syn.fun }, opts.functionStyle),
 
