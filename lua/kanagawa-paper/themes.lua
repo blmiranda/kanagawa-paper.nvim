@@ -190,7 +190,7 @@ return function(palette)
 			attribute = palette.dragonWhite,
 			fun = palette.dragonBlue2,
 			statement = palette.dragonWhite,
-			keyword = palette.dragonPink,
+			keyword = palette.dragonWhite,
 			operator = palette.dragonRed,
 			preproc = palette.dragonRed,
 			type = palette.dragonAqua,
