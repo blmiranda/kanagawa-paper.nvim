@@ -191,7 +191,7 @@ return function(palette)
 			fun = palette.dragonBlue2,
 			statement = palette.dragonWhite,
 			keyword = palette.dragonWhite,
-			operator = palette.dragonRed,
+			operator = palette.dragonWhite,
 			preproc = palette.dragonRed,
 			type = palette.dragonAqua,
 			regex = palette.dragonRed,
