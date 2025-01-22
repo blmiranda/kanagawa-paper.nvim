@@ -11,7 +11,7 @@ function M.setup(colors, opts)
 		Comment = vim.tbl_extend("force", { fg = theme.syn.comment }, opts.commentStyle),
 
 		-- *Constant	any constant
-		Constant = { fg = theme.syn.constant },
+		Constant = { fg = theme.syn.constant, bold = false },
 		--  String		a string constant: "this is a string"
 		String = { fg = theme.syn.string },
 		--  Character	a character constant: 'c', '\n'
@@ -19,7 +19,7 @@ function M.setup(colors, opts)
 		--  Number		a number constant: 234, 0xff
 		Number = { fg = theme.syn.number },
 		--  Boolean	a boolean constant: TRUE, false
-		Boolean = { fg = theme.syn.boolean, bold = true },
+		Boolean = { fg = theme.syn.boolean, bold = false },
 		--  Float		a floating point constant: 2.3e10
 		Float = { link = "Number" },
 
