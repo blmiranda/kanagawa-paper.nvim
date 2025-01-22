@@ -3,6 +3,7 @@
 ---@field variable ColorSpec
 ---@field member ColorSpec
 ---@field number ColorSpec
+---@field boolean ColorSpec
 ---@field constant ColorSpec
 ---@field identifier ColorSpec
 ---@field attribute ColorSpec
@@ -182,8 +183,9 @@ return function(palette)
 		syn = {
 			string = palette.dragonGreen2,
 			variable = "none",
-			member = palette.dragonPink,
+			member = palette.dragonWhite,
 			number = palette.dragonPink,
+			boolean = palette.dragonPink,
 			constant = palette.dragonWhite,
 			identifier = palette.dragonWhite,
 			parameter = palette.dragonWhite,
