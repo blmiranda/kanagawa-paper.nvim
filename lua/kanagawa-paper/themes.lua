@@ -200,7 +200,7 @@ return function(palette)
 			comment = palette.fujiGray,
 			special1 = palette.dragonTeal,
 			special2 = palette.dragonWhite,
-			special3 = palette.dragonBlue,
+			special3 = palette.dragonWhite,
 		},
 		vcs = {
 			added = palette.autumnGreen,
