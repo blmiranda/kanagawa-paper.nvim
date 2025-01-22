@@ -16,7 +16,7 @@ local defaults = {
 	functionStyle = { italic = false },
 	keywordStyle = { italic = false, bold = false },
 	statementStyle = { italic = false, bold = false },
-	typeStyle = { italic = false },
+	typeStyle = { italic = false, bold = false },
 	colors = { theme = {}, palette = {} },
 	---@type fun(colors: KanagawaColorsSpec): table<string, table>
 	overrides = function()
