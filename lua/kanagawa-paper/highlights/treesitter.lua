@@ -9,7 +9,7 @@ function M.setup(colors, opts)
 
 	return {
 		-- @variable                       various variable names
-		["@variable"] = { fg = theme.ui.fg, bold = false },
+		["@variable"] = { fg = theme.ui.fg },
 		-- @variable.builtin (Special)     built-in variable names (e.g. `this`, `self`)
 		["@variable.builtin"] = { fg = theme.syn.special2, italic = true },
 		-- @variable.parameter             parameters of a function
@@ -19,7 +19,6 @@ function M.setup(colors, opts)
 		["@variable.member"] = { fg = theme.syn.member },
 		--
 		-- @constant (Constant)              constant identifiers
-		["@constant"] = { fg = theme.ui.fg, bold = false },
 		-- @constant.builtin       built-in constant values
 		-- @constant.macro         constants defined by the preprocessor
 		--
@@ -47,6 +46,7 @@ function M.setup(colors, opts)
 		-- @number.float           floating-point number literals
 		--
 		-- @type                   type or class definitions and annotations
+		["@type"] = { fg = theme.syn.type, undercurl = true, bold = false },
 		-- @type.builtin           built-in types
 		-- @type.definition        identifiers in type definitions (e.g. `typedef <type> <identifier>` in C)
 		--
