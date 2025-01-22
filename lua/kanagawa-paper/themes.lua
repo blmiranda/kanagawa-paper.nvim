@@ -193,7 +193,7 @@ return function(palette)
 			fun = palette.carpYellow,
 			statement = palette.dragonWhite,
 			keyword = palette.dragonWhite,
-			operator = palette.dragonWhite,
+			operator = palette.dragonRed,
 			preproc = palette.dragonRed,
 			type = palette.dragonAqua,
 			regex = palette.dragonRed,
