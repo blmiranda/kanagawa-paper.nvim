@@ -46,6 +46,7 @@ function M.setup(colors, opts)
 		-- @number.float           floating-point number literals
 		--
 		-- @type                   type or class definitions and annotations
+		["@type"] = { fg = theme.syn.type, bold = false },
 		-- @type.builtin           built-in types
 		-- @type.definition        identifiers in type definitions (e.g. `typedef <type> <identifier>` in C)
 		--
@@ -57,16 +58,11 @@ function M.setup(colors, opts)
 		-- @function               function definitions
 		["@function"] = { fg = theme.syn.fun, bold = false },
 		-- @function.builtin       built-in functions
-		["@function.builtin"] = { fg = theme.syn.fun, bold = false },
 		-- @function.call          function calls
-		["@function.call"] = { fg = theme.syn.fun, bold = false },
 		-- @function.macro         preprocessor macros
-		["@function.macro"] = { fg = theme.syn.fun, bold = false },
 		--
 		-- @function.method        method definitions
-		["@function.method"] = { fg = theme.syn.fun, bold = false },
 		-- @function.method.call   method calls
-		["@function.method.call"] = { fg = theme.syn.fun, bold = false },
 		--
 		-- @constructor            constructor calls and definitions
 		["@constructor"] = { fg = theme.syn.special1 },
