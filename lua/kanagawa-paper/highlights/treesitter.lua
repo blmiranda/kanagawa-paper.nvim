@@ -19,6 +19,7 @@ function M.setup(colors, opts)
 		["@variable.member"] = { fg = theme.syn.member },
 		--
 		-- @constant (Constant)              constant identifiers
+		["@constant"] = { fg = theme.ui.fg, bold = false },
 		-- @constant.builtin       built-in constant values
 		-- @constant.macro         constants defined by the preprocessor
 		--
