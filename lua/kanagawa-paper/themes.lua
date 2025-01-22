@@ -188,7 +188,7 @@ return function(palette)
 			identifier = palette.dragonWhite,
 			parameter = palette.dragonWhite,
 			attribute = palette.dragonWhite,
-			fun = palette.dragonBlue2,
+			fun = palette.dragonYellow,
 			statement = palette.dragonWhite,
 			keyword = palette.dragonWhite,
 			operator = palette.dragonWhite,
