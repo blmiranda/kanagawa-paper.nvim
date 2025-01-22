@@ -17,7 +17,7 @@ function M.setup(colors, opts)
 		--  Character	a character constant: 'c', '\n'
 		Character = { link = "String" },
 		--  Number		a number constant: 234, 0xff
-		Number = { fg = theme.syn.number },
+		Number = { fg = theme.syn.number, bold = true },
 		--  Boolean	a boolean constant: TRUE, false
 		Boolean = { fg = theme.syn.boolean, bold = true },
 		--  Float		a floating point constant: 2.3e10
