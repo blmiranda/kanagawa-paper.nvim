@@ -11,7 +11,7 @@ function M.setup(colors, opts)
 		Comment = vim.tbl_extend("force", { fg = theme.syn.comment }, opts.commentStyle),
 
 		-- *Constant	any constant
-		Constant = { fg = theme.syn.constant },
+		Constant = { fg = theme.syn.constant, bold = false },
 		--  String		a string constant: "this is a string"
 		String = { fg = theme.syn.string },
 		--  Character	a character constant: 'c', '\n'
@@ -26,7 +26,7 @@ function M.setup(colors, opts)
 		-- *Identifier	any variable name
 		Identifier = { fg = theme.syn.identifier },
 		--  Function	function name (also: methods for classes)
-		Function = vim.tbl_extend("force", { fg = theme.syn.fun }, opts.functionStyle),
+		Function = vim.tbl_extend("force", { fg = theme.syn.fun, bold = false }, opts.functionStyle),
 
 		-- *Statement	any statement
 		Statement = vim.tbl_extend("force", { fg = theme.syn.statement }, opts.statementStyle),
@@ -48,7 +48,7 @@ function M.setup(colors, opts)
 		--  PreCondit	preprocessor #if, #else, #endif, etc.
 
 		-- *Type		int, long, char, etc.
-		Type = vim.tbl_extend("force", { fg = theme.syn.type }, opts.typeStyle),
+		Type = vim.tbl_extend("force", { fg = theme.syn.type, bold = false }, opts.typeStyle),
 		--  StorageClass	static, register, volatile, etc.
 		--  Structure	struct, union, enum, etc.
 		--  Typedef	A typedef
