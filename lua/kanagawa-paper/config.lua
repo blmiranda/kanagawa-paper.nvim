@@ -13,7 +13,7 @@ local defaults = {
 	dimInactive = true, -- disabled when transparent
 	terminalColors = true,
 	commentStyle = { italic = true },
-	functionStyle = { italic = false },
+	functionStyle = { italic = false, bold = false },
 	keywordStyle = { italic = false, bold = false },
 	statementStyle = { italic = false, bold = false },
 	typeStyle = { italic = false },
