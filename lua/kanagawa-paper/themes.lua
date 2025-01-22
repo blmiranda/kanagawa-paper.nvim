@@ -128,7 +128,7 @@ return function(palette)
 			command = palette.dragonYellow,
 		},
 		ui = {
-			fg = palette.fujiWhite,
+			fg = palette.dragonWhite,
 			fg_gray = palette.fujiGray,
 			fg_dark = palette.dragonBlack3,
 			fg_dim = palette.dragonBlack5,
