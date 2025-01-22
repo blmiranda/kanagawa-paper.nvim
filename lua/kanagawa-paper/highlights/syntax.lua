@@ -24,7 +24,7 @@ function M.setup(colors, opts)
 		Float = { link = "Number" },
 
 		-- *Identifier	any variable name
-		Identifier = { fg = theme.syn.identifier, bold = false },
+		Identifier = { fg = theme.syn.identifier },
 		--  Function	function name (also: methods for classes)
 		Function = vim.tbl_extend("force", { fg = theme.syn.fun }, opts.functionStyle),
 
