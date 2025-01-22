@@ -55,7 +55,7 @@ function M.setup(colors, opts)
 		-- @property               the key in key/value pairs
 		--
 		-- @function               function definitions
-		["@function"] = { bold = false },
+		["@function"] = { fg = theme.syn.fun, bold = false },
 		-- @function.builtin       built-in functions
 		-- @function.call          function calls
 		-- @function.macro         preprocessor macros
