@@ -46,7 +46,6 @@ function M.setup(colors, opts)
 		-- @number.float           floating-point number literals
 		--
 		-- @type                   type or class definitions and annotations
-		["@type"] = { fg = theme.syn.type, bold = false },
 		-- @type.builtin           built-in types
 		-- @type.definition        identifiers in type definitions (e.g. `typedef <type> <identifier>` in C)
 		--
