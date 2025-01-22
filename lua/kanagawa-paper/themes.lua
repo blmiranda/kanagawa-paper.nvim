@@ -198,8 +198,8 @@ return function(palette)
 			deprecated = palette.katanaGray,
 			punct = palette.dragonGray2,
 			comment = palette.fujiGray,
-			special1 = palette.dragonWhite,
-			special2 = palette.dragonRed,
+			special1 = palette.dragonTeal,
+			special2 = palette.dragonWhite,
 			special3 = palette.dragonBlue,
 		},
 		vcs = {
