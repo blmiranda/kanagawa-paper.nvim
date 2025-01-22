@@ -182,9 +182,9 @@ return function(palette)
 		syn = {
 			string = palette.dragonGreen2,
 			variable = "none",
-			member = palette.fujiWhite,
+			member = palette.dragonWhite,
 			number = palette.dragonPink,
-			constant = palette.dragonOrange,
+			constant = palette.dragonWhite,
 			identifier = palette.dragonYellow,
 			parameter = palette.dragonGray,
 			attribute = palette.dragonYellow,
