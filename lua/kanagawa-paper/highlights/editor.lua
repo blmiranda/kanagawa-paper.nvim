@@ -13,7 +13,7 @@ function M.setup(colors, opts)
 		-- Conceal		Placeholder characters substituted for concealed text (see 'conceallevel').
 		Conceal = { fg = theme.ui.special, bold = true },
 		-- CurSearch	Used for highlighting a search pattern under the cursor (see 'hlsearch').
-		CurSearch = { fg = theme.ui.fg_dark, bg = theme.ui.bg_search, bold = false },
+		CurSearch = { fg = theme.ui.fg_dark, bg = theme.ui.bg_search, bold = true },
 		-- Cursor		Character under the cursor.
 		Cursor = { fg = theme.ui.bg, bg = theme.ui.fg },
 		-- lCursor		Character under the cursor when |language-mapping| is used (see 'guicursor').
